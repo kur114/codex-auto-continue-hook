@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": ["continue", "stop"]
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": ["decision", "reason"]
+}
